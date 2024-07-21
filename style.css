@@ -478,7 +478,6 @@ body {
 
 .home .home-img img {
     margin: auto;
-    border-radius: 8px;
     height: 400px;
     object-fit: cover;
     -webkit-mask-image: url(./image/splash.png);
@@ -529,10 +528,14 @@ body {
     opacity: 0;
 }
 /* ---------------- */
+.about .container .tab_content{
+    flex: 0 0 100%;
+    max-width: 100%;
+} 
 
 .about .container .tab-titles {
     display: flex;
-    margin: 20px 0 20px;
+    margin: 20px 0 20px 0;
 }
 
 .about .container .tab-titles .tab-links {
@@ -570,13 +573,13 @@ body {
 .about .container .tab-contents ul li {
     list-style: none;
     margin: 15px 0;
+    line-height: 20px;
     font-size: 1.3rem;
     color: var(--bg-black-50);
     font-family: Gilroy;
 }
 
 .about .container .tab-contents ul li span {
-    /* margin: 10px 10px; */
     font-size: 1.5rem;
     color: var(--skin-color);
     font-weight: 700;
@@ -589,7 +592,7 @@ body {
 .about .tab_trigger{
     position: relative;
     opacity: 0;
-    left: -300px;
+    left: -200px;
 }
 /* ---------------- */
 
