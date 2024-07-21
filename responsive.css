@@ -32,6 +32,13 @@
     .portfolio .portfolio-container .portfolio-box .portfolio-layer p{
         font-size: 1rem;
     }
+    .portfolio .portfolio-container .portfolio-box .portfolio-layer a {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    .portfolio .portfolio-container .portfolio-box .portfolio-layer a i{
+        font-size: 1.2rem;
+    }
 }
 @media (max-width:1099px){
     .home .home-img::before {
@@ -154,6 +161,10 @@
     .service .services_modal .services_modal-content .services_modal-info{
         font-size: 1.2rem;
     }
+    .service .services_modal .services_modal-content {
+        padding: 2rem 2rem 2rem;
+    }
+
 }
 
 @media (max-width:600px){
@@ -206,6 +217,32 @@
     .service .services_modal .services_modal-content .services_modal-description {
         text-align: justify;
     }
+    .service .services_modal .services_modal-content .services_modal-title{
+        font-size: 1.5rem;
+    }
+    .service .services_modal .services_modal-content .services_modal-description{
+        font-size: 1.2rem;
+    }
+    .service .services_modal .services_modal-content .services_modal-icon{
+        font-size: 1rem;
+    }
+    .service .services_modal .services_modal-content .services_modal-info{
+        font-size: .8rem;
+    }
+    
+    .portfolio .portfolio-container .portfolio-box .portfolio-layer h4{
+        font-size: 1.2rem;
+    }
+    .portfolio .portfolio-container .portfolio-box .portfolio-layer p{
+        font-size: .8rem;
+    }
+    .portfolio .portfolio-container .portfolio-box .portfolio-layer a {
+        width: 2rem;
+        height: 2rem;
+    }
+    .portfolio .portfolio-container .portfolio-box .portfolio-layer a i{
+        font-size: 1rem;
+    }
 }
 
 @media (max-width:470px){
@@ -227,21 +264,15 @@
         font-size: .8rem;
     }
     .service .services_modal .services_modal-content .services_modal-icon{
-        font-size: 1rem;
+        /* font-size: .8rem; */
     }
     .service .services_modal .services_modal-content .services_modal-info{
-        font-size: 1rem;
+        /* font-size: .8rem; */
     }
 }
 @media (max-width:414px){
     .about .container .tab-titles .tab-links{
         margin-right: 30px;
-    }
-    .service .services_modal .services_modal-content .services_modal-icon{
-        font-size: 1rem;
-    }
-    .service .services_modal .services_modal-content .services_modal-info{
-        font-size: 1rem;
     }
 }
 @media (max-width:395px){
