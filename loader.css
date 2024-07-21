@@ -1,0 +1,67 @@
+
+/* ----------loader---------- */
+.loader{
+    position: absolute;
+    z-index: 999999;
+    height: 100dvh;
+    width: 100dvw;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loader .center{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.loader .center .ring{
+    position: absolute;
+    width: 25rem;
+    height: 25rem;
+    border: 0px solid #0b70fc;
+    border-radius: 50%;
+}
+.loader .center .ring:nth-child(1){
+    border-bottom-width: 6px;
+    animation: rotate1 2.5s linear infinite;
+}
+.loader .center .ring:nth-child(2){
+    border-right-width: 6px;
+    animation: rotate2 2.5s linear infinite;
+}
+.loader .center .ring:nth-child(3){
+    border-top-width: 6px;
+    animation: rotate3 2.5s linear infinite;
+}
+
+@keyframes rotate1{
+    0%{
+        transform: rotateX(35deg) rotateY(-45deg) rotateZ(0deg);
+    }
+    100%{
+        transform: rotateX(35deg) rotateY(-45deg) rotateZ(360deg);
+    }
+}
+@keyframes rotate2{
+    0%{
+        transform: rotateX(50deg) rotateY(10deg) rotateZ(0deg);
+    }
+    100%{
+        transform: rotateX(50deg) rotateY(10deg) rotateZ(360deg);
+    }
+}
+@keyframes rotate3{
+    0%{
+        transform: rotateX(35deg) rotateY(55deg) rotateZ(0deg);
+    }
+    100%{
+        transform: rotateX(35deg) rotateY(55deg) rotateZ(360deg);
+    }
+}
+.loader .center .load{
+    color: #fff;
+    font-size: 2rem;
+    font-family: Voyage;
+}

@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <!-- :----- icon links -------: -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- :-----Textillate style CDN -------: -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
+    <!-- :----- Style Css -------: -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="color-1.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="stylesheet" href="loader.css">
+    <!-- :----- Style Switcher -------: -->
+    <link rel="stylesheet" href="style-switcher.css">
+    <link rel="stylesheet" href="color-1.css" class="alternate-style" title="color-1" disabled>
+    <link rel="stylesheet" href="color-2.css" class="alternate-style" title="color-2" disabled>
+    <link rel="stylesheet" href="color-3.css" class="alternate-style" title="color-3" disabled>
+    <link rel="stylesheet" href="color-4.css" class="alternate-style" title="color-4" disabled>
+    <link rel="stylesheet" href="color-5.css" class="alternate-style" title="color-5" disabled>
+    <link rel="stylesheet" href="color-6.css" class="alternate-style" title="color-6" disabled>
+    <link rel="stylesheet" href="color-7.css" class="alternate-style" title="color-7" disabled>
+    <link rel="stylesheet" href="color-8.css" class="alternate-style" title="color-8" disabled>
+    <link rel="stylesheet" href="color-9.css" class="alternate-style" title="color-9" disabled>
+    <link rel="stylesheet" href="color-10.css" class="alternate-style" title="color-10" disabled>
+</head>
+<body>
+    <!-- --------Loader-------- -->
+    <div class="loader">
+        <div class="center">
+            <div class="ring"></div>
+            <div class="ring"></div>
+            <div class="ring"></div>
+            <span class="load loading"></span>
+        </div>
+    </div>
+
+    <!-- --------Nav-------- -->
+    <header class="header">
+        <div class="logo">
+            <a href=""><h1 class="enlarge">Hr.</h1></a>
+        </div>
+        <div class="navbar">
+            <ul id="sideMenu-bar">
+                <li><a href="#home" class="active enlarge"><i class="fa fa-home"></i> Home</a></li>
+                <li><a href="#about" class="enlarge"><i class="fa fa-user"></i> About</a> </li>
+                <li><a href="#service" class="enlarge"><i class="fa fa-list"></i> Services</a></li>
+                <li><a href="#portfolio" class="enlarge"><i class="fa fa-briefcase"></i> Portfolio</a></li>
+                <li><a href="#contact" class="enlarge"><i class="fa fa-comments"></i> Contact</a></li>
+                <i class="uil uil-times nav-toggler-close" onclick="closeMenu()"></i>
+            </ul>
+        </div>
+    </header>
+
+    <div class="nav-toggler" onclick="openMenu()">
+        <span></span>
+    </div>
+    
+    <!-- --------Main Section-------- -->
+    <div class="main-content">
+        <div class="mouse_circle"></div>
+        <!-- --------Home-------- -->
+        <section class="home section " id="home">
+            <div class="container">
+                <div class="row">
+                    <div class="home-info padd-15">
+                        <h3 class="hello"> Hi! , this is <span class="name" id="abcd"> Hrithik Gupta</span></h3>
+                        <h3 class="my-profession gsap_01 ">I'm a <span class="typing">Web designer</span></h3>
+                        <p class=" gsap_01 ">I'm a web designer, and my expertise is to create and design website with backend technologies and many more . . . .</p>
+                        <a href="#about" class="gsap_01 btn about-me"> More about me</a>
+                        <!-- <a href="image/Resume.pdf" download class="gsap_01 btn about-me">Download CV</a> -->
+                    </div>
+                    <div class="home-img padd-15">
+                        <img src="image/Hrithik_Gupta.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- --------About-------- -->
+        <section class="about section" id="about">
+            <div class="container">
+                <div class="row">
+                     <div class="enlarge about_title section-title">
+                        <h2>About Me</h2>
+                     </div>
+                </div>
+                <div class="row">
+                    <div class="about-content padd-15">
+                        <div class="row">
+                            <div class="about-text">
+                                <h3>I'm hrithik Gupta and <span>I'm a web developer</span></h3>
+                                <p>I have recently completed my B.Tech in 2024, and I have sufficient information in technology as well as an urge for coming up with new concepts. Java, SQL, MongoDB, HTML5, CSS3, JavaScript, Express.js, Node.js, Passport.js, Socket.io, React.js, Next.js, Bootstrap, WordPress, and AWS are among my areas of skills. I have practical experience developing projects that demonstrate my technical skills.
+                                    <br>
+                                    Among my notable projects is the Video Chat website, where I developed a backend system that enables users to easily join video conferences and create personal meeting IDs. Using Node.js, MongoDB Atlas, PeerJS, Socket.IO, and Passport.js, I built certain that everyone was communicating in a safe manner.
+                                    <br>
+                                    I also created a weather application that uses APIs that provide real-time weather information. I built a simple platform which enables users to easily receive precise weather data via JavaScript with the OpenWeather API.
+                                    <br>
+                                    I'm currently working on a project to replicate IMDB, with a particular focus on using React.js to design a website for reviewing TV shows and movies. This project reflects my beliefs in continuous learning and web development skill progress.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab_trigger tab-titles">
+                    <p class="tab-links active-link" onclick="openTab('skills')" >Skills</p>
+                    <p class="tab-links"onclick="openTab('certificates')">Certification</p>
+                    <p class="tab-links"onclick="openTab('educations')">Education</p>
+                </div>
+                <div class="tab_trigger tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Java</span></li>
+                        <li><span>SQL,</span>&nbsp;&nbsp;<span>MongoDB</span></li>
+                        <li><span>Bootstrap,</span>&nbsp;&nbsp;<span>WordPress</span></li>
+                        <li><span>HTML5,</span>&nbsp;&nbsp;<span>CSS3,</span>&nbsp;&nbsp;<span>Java Script</span><br>Designing Web/App Interface</li>
+                        <li><span>Express.js,</span>&nbsp;&nbsp;<span>Node.js,</span>&nbsp;&nbsp;<span>Passport js,</span>&nbsp;&nbsp;<span>Socket.io,</span>&nbsp;&nbsp;<span>Google OAuth2,</span>&nbsp;&nbsp;<span>Multer</span><br>Backend Development</li>
+                        <li><span>ReactJS,</span>&nbsp;&nbsp;<span>Next.js</span></li>
+                    </ul>
+                </div>
+                <div class="tab_trigger tab-contents " id="certificates">
+                    <ul>
+                        <li><span>Language</span><br><a href="https://drive.google.com/file/d/1Su2D9zaU1_UyNodesRgudABZPX83Olx8/view?usp=sharing"target="_blank">Java</a></li>
+                        <li><span>Web Development</span><br><a href="https://drive.google.com/file/d/1JD2_Wq7TFxJYcELQS-CCD3JRPqC5-lsN/view?usp=sharing"target="_blank">MERN Full Stack</a></li>
+                        <li><span>Google</span><br><a href="https://drive.google.com/file/d/1162-145aYka_RhOHf-O3T6rJ_tksqdnh/view?usp=sharing"target="_blank">The Fundamentals of Digital Marketing </a><br>
+                            <a href="https://drive.google.com/file/d/1eBjm_9vXxg372bG99FMEw8RtWYX6suHG/view?usp=sharing"target="_blank">Google Analytics for Beginners</a></li>
+                        <li><span>TCS</span><br><a href="https://drive.google.com/file/d/1bKtbqNLbBD8Jas5lPTWi8ntW1b_KzaQw/view?usp=sharing"target="_blank">TCS ION Career Edge - Young Professiona</a></li>
+                        <li><span>Udemy</span><br><a href="https://drive.google.com/file/d/1iTAvacN8Gd0BOuF8od39HWvvT2OSXBrK/view?usp=sharing"target="_blank">Front End Web Development</a><br>
+                            <a href="https://drive.google.com/file/d/1iminQboYiI6u7fBELpAZRhPRhikTGE9I/view?usp=sharing"target="_blank">Facebook Ads & Facebook Marketing</a></li>
+                        <li><span>ISRO</span><br><a href="https://drive.google.com/file/d/1hMn3U06xmf4WQRWjW46P6qSkQJ8NJyUb/view?usp=sharing"target="_blank">Overview of Geographical Information System</a></li>
+                    </ul>
+                </div>
+                <div class="tab_trigger tab-contents " id="educations">
+                    <ul>
+                        <li><span>B.tect &nbsp;&nbsp;</span> ( <span>2020 - 2024</span> ) <br> Sagar Institute of Research And Technology - Excellence <br>Computer Science & Engineering &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GPA : 8.36</li>
+                        <li><span>XII &nbsp;&nbsp;</span> ( <span>2019 - 2020</span> ) <br> KMJR Inter College &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Aggregate : 69%</li>
+                        <li><span>X &nbsp;&nbsp;</span> ( <span>2017 - 2018</span> ) <br> Holy Kids International School &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Aggregate : 72.2%</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- --------Services-------- -->
+        <section class="service section" id="service">
+            <div class="container">
+                <div class="row">
+                     <div class="enlarge service_title section-title">
+                        <h2>Services</h2>
+                     </div>
+                </div>
+                <div class="row">
+                    <div class="services-container">
+                        <div class="service_box_0 service_box_01 service-box">
+                            <i class='bx bxl-java'></i>
+                            <h2>Java Developer</h2>
+                            <p>In Java development, I've learned the basics of the language and applied them to create practical applications. Notably, I created a student monitoring database integrated with SQL for data management and a medical billing system for streamlined healthcare operations. These projects showcase my proficiency in Java for building robust applications with database integration and efficient data handling capabilities</p>
+                            <a class="btn service-btn">Read More</a>
+                            <!-- ------Modal-box------ -->
+                            <div class="services_modal">
+                                <div class="services_modal-content">
+                                    <i class="uil uil-times services_modal-close"></i>
+                                    <h3 class="services_modal-title">Java Developer</h3>
+                                    <p class="services_modal-description">I'm familiar with introductory Java concepts and comfortable with the fundamentals of Java programming.</p>
+
+                                    <ul class="services_modal-services grid">
+                                        <li class="services_modal-service">
+                                            <i class="uil uil-check-circle services_modal-icon"></i>
+                                            <p class="services_modal-info">I have a foundational understanding of Java programming.</p>
+                                        </li>
+                                        <li class="services_modal-service">
+                                            <i class="uil uil-check-circle services_modal-icon"></i>
+                                            <p class="services_modal-info">I'm familiar with databases such as SQL and MongoDB.</p>
+                                        </li>
+                                        <li class="services_modal-service">
+                                            <i class="uil uil-check-circle services_modal-icon"></i>
+                                            <p class="services_modal-info">I know about establishing connectivity between Java applications and SQL databases.</p>
+                                        </li>
+                                        <li class="services_modal-service">
+                                            <i class="uil uil-check-circle services_modal-icon"></i>
+                                            <p class="services_modal-info">I've used Java to create projects that work with SQL databases.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service_box_0 service_box_02 service-box">
+                            <!-- <i class='bx bx-code-alt'></i> -->
+                            <i class='bx bxl-react'></i>
+                            <h2>Frontend Developer</h2>
+                            <p>Frontend development involves creating the user interface and user experience of a website or web application. It focuses on designing and implementing the visual elements that users interact with. Frontend developers use languages such as HTML, CSS, and JavaScript to build responsive and visually appealing websites. They also incorporate animations and other interactive elements to enhance the user experience.</p>
+                            <a class="btn service-btn">Read More</a>
+                            <!-- ------Modal-box------ -->
+                            <div class="services_modal">
+                                <div class="services_modal-content">
+                                    <i class="uil uil-times services_modal-close"></i>
+                                    <h3 class="services_modal-title">Frontend Developer</h3>
+                                    <p class="services_modal-description">Proficient in HTML, CSS, JavaScript. Skilled in responsive design, performance optimization, and collaboration with team members..</p>
+
+                                    <ul class="services_modal-services grid">
+                                        <li class="services_modal-service">
+                                            <i class="uil uil-check-circle services_modal-icon"></i>
+                                            <p class="services_modal-info">I am familiar with HTML5, CSS3, JavaScript, and Bootstrap for web development projects.</p>
+                                        </li>
+                                        <li class="services_modal-service">
+                                            <i class="uil uil-check-circle services_modal-icon"></i>
+                                            <p class="services_modal-info">Utilized Gsap, Scroll Trigger, and Locomotive for dynamic animations on web pages.</p>
+                                        </li>
+                                        <li class="services_modal-service">
+                                            <i class="uil uil-check-circle services_modal-icon"></i>
+                                            <p class="services_modal-info">JavaScript libraries like Particle.js and Matter.js are implemented for attractive visual effects on web pages.</p>
+                                        </li>
+                                        <li class="services_modal-service">
+                                            <i class="uil uil-check-circle services_modal-icon"></i>
+                                            <p class="services_modal-info">Responsive web pages are designed to enhance user interaction across different devices for the best experience.</p>
+                                        </li>
+                                        <li class="services_modal-service">
+                                            <i class="uil uil-check-circle services_modal-icon"></i>
+                                            <p class="services_modal-info">I developed the various web pages.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="service_box_0 service_box_03 service-box">
+                            <i class='bx bxl-nodejs'></i>
+                            <h2>Backend Developer</h2>
+                            <p>In backend development, I've built websites using Node.js, integrating authentication using Passport.js. This involves handling server-side logic and databases, ensuring seamless communication between the front end and databases, and improving the user experience. Backend work focuses on the server, managing data, ensuring security, and ensuring the smooth functionality of web applications.</p>
+                            <a class="btn service-btn">Read More</a>
+                            <!-- ------Modal-box------ -->
+                            <div class="services_modal">
+                                <div class="services_modal-content">
+                                    <i class="uil uil-times services_modal-close"></i>
+                                    <h3 class="services_modal-title">Backend Developer</h3>
+                                    <p class="services_modal-description">As a backend developer, I focus on server-side functionality, databases, and ensuring secure, efficient data handling for web applications.</p>
+
+                                    <ul class="services_modal-services grid">
+                                        <li class="services_modal-service">
+                                            <i class="uil uil-check-circle services_modal-icon"></i>
+                                            <p class="services_modal-info">I'm familiar with Bootstrap, JavaScript, and backend frameworks like Express.js and Node.js.</p>
+                                        </li>
+                                        <li class="services_modal-service">
+                                            <i class="uil uil-check-circle services_modal-icon"></i>
+                                            <p class="services_modal-info">I know about establishing connections between frontend and backend systems effectively.</p>
+                                        </li>
+                                        <li class="services_modal-service">
+                                            <i class="uil uil-check-circle services_modal-icon"></i>
+                                            <p class="services_modal-info">I'm familiar with using MongoDB for storing and managing data efficiently.</p>
+                                        </li>
+                                        <li class="services_modal-service">
+                                            <i class="uil uil-check-circle services_modal-icon"></i>
+                                            <p class="services_modal-info">
+                                                I am skilled in using Passport.js for authentication, including Google OAuth integration.</p>
+                                        </li>
+                                        <li class="services_modal-service">
+                                            <i class="uil uil-check-circle services_modal-icon"></i>
+                                            <p class="services_modal-info">I've developed several websites utilizing these tools and technologies effectively.</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- --------Portfolio-------- -->
+        <section class="portfolio section" id="portfolio">
+            <div class="container">
+                <div class="row">
+                     <div class="enlarge portfolio_title section-title">
+                        <h2>ProtFolio</h2>
+                     </div>
+                </div>
+                <div class="portfolio-container">
+                    <div class="prot_box_0 prot_box_01 portfolio-box">
+                        <img src="image/Video_Chat.jpg" alt="">
+                        <div class="portfolio-layer">
+                            <h4>Video Chat</h4>
+                            <p> A website of video chat where users may properly join video conferences 
+                                easily generate new meeting IDs.</p>
+                            <a title="link" href="https://video-chat-app-gq9p.onrender.com" target="_blank"><i class="bx bx-link-external"></i></a>
+                        </div>
+                    </div>
+                    <div class="prot_box_0 prot_box_02 portfolio-box">
+                        <img src="image/Weather_app.jpg" alt="">
+                        <div class="portfolio-layer">
+                            <h4>Weather App</h4>
+                            <p>I have designed a Weather Application that utilises APIs to provide real-time 
+                                weather updates.</p>
+                            <a title="link" href="https://weather-app-udx5.onrender.com" target="_blank"><i class="bx bx-link-external"></i></a>
+                        </div>
+                    </div>
+                    <div class="prot_box_0 prot_box_03 portfolio-box">
+                        <img src="image/Cyberfiction.jpg" alt="">
+                        <div class="portfolio-layer">
+                            <h4>Cyberfiction</h4>
+                            <p>For an engaging user experience in cyberfiction narrative structure, the website "Cyberfiction" is designed using HTML, CSS, and JavaScript. Animations are generated by GSAP, Locomotive, and Scroll Trigger.</p>
+                            <a title="link" href="https://netrik01.github.io/Cyberfiction/" target="_blank"><i class="bx bx-link-external"></i></a>
+                        </div>
+                    </div>
+                    <div class="prot_box_0 prot_box_04 portfolio-box">
+                        <img src="image/Code_bite.jpg" alt="">
+                        <div class="portfolio-layer">
+                            <h4>Code Bite</h4>
+                            <p>The website was created during a CodeBite hackathon, utilizing HTML5, CSS3, and JavaScript. It features dynamic animations powered by GSAP, ScrollTrigger, Swiper.js, and Particle.js.</p>
+                            <a title="link" href="https://netrik01.github.io/code-bite/" target="_blank"><i class="bx bx-link-external"></i></a>
+                        </div>
+                    </div>
+                    <div class="prot_box_0 prot_box_05 portfolio-box">
+                        <img src="image/Luck_meyer.jpg" alt="">
+                        <div class="portfolio-layer">
+                            <h4>A 12</h4>
+                            <p>The website is constructed with HTML5 and CSS3, featuring dynamic animations created using JavaScript and Scalable Vector Graphics (SVG) for visually engaging content.</p>
+                            <a title="link" href="https://netrik01.github.io/A12/" target="_blank"><i class="bx bx-link-external"></i></a>
+                        </div>
+                    </div>
+                    <div class="prot_box_0 prot_box_06 portfolio-box">
+                        <img src="image/Contrast.jpg" alt="">
+                        <div class="portfolio-layer">
+                            <h4>A 13</h4>
+                            <p>The website is crafted using HTML5, CSS3, and JavaScript. It incorporates captivating animations through GSAP and ScrollTrigger, enhancing user experience with dynamic visual elements.</p>
+                            <a title="link" href="https://netrik01.github.io/A13/" target="_blank"><i class="bx bx-link-external"></i></a>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+        </section>
+
+        <!-- --------Contact-------- -->
+        <section class="contact section" id="contact">
+            <div class="container">
+                <div class="row">
+                     <div class="enlarge contact_title section-title">
+                        <h2>Contact</h2>
+                     </div>
+                </div>   
+                <div class="contact-row">
+                    <div class="contact_box_0 contact_box_01 contact-left">
+                        <h1 class="sub-title">Contact me</h1>
+                        <a class="call" href="mailto:hrgupta19@gamil.com"><i class="fa-solid fa-envelope"></i> hrgupta19@gmail.com</a>
+                        <a class="call" href="tel:6287537008"><i class="fa-solid fa-square-phone"></i> 6287537008</p>
+                        <div class="social-icons">
+                            <a href="https://twitter.com/silentQ0201?t=AmFDb-m3tzP1iR9bBkG1Ew&s=09" target="_blank"><i class="fa-brands fa-square-twitter"></i></a>
+                            <a href="https://instagram.com/hrithik_0529?igshid=ZDdkNTZiNTM=" target="_blank"><i class="fa-brands fa-square-instagram"></i></a>
+                            <a href="https://www.linkedin.com/in/hrithik-gupta-458062230/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://github.com/netrik01" target="_blank"><i class="fab fa-github-square"></i></a>
+                        </div>
+                        <a href="image/Hrithik_Gupta.pdf" download class="btn contact-me">Download CV</a>
+                    </div>
+                    <div class="contact_box_0 contact_box_02 contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="name" placeholder="Name" required>
+                            <input type="text" name="email" placeholder="Email" required>
+                            <input type="text" name="phone" placeholder="Phone no." required>
+                            <textarea name="message" rows="6" placeholder="Message"></textarea>
+                            <button type="submit" class="btn contact-btn">Send</button>
+                        </form>
+                        <span id="suc-msg"></span>
+                    </div>
+                </div>    
+        </section>
+
+        <!-- --------Footer-------- -->
+        <div class="footer">
+            <p>Copyright &copy; Netrik.&#8482;</p>
+        </div>
+        
+        <!-- --------Style-Theme-Switcher-------- -->
+        <div class="style-switcher">
+            <div class="style-switcher-toggler s-icon ">
+                <i class="fas fa-cog fa-spin"></i>
+            </div> 
+            <div class="day-night s-icon">
+                <i class="fas"></i>
+            </div>
+            <h4>Theme Colors</h4>
+            <div class="colors">
+                <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+                <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+                <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+                <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+                <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+                <span class="color-6" onclick="setActiveStyle('color-6')"></span>
+                <span class="color-7" onclick="setActiveStyle('color-7')"></span>
+                <span class="color-8" onclick="setActiveStyle('color-8')"></span>
+                <span class="color-9" onclick="setActiveStyle('color-9')"></span>
+                <span class="color-10" onclick="setActiveStyle('color-10')"></span>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- --------Gsap_CDN--------  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<!-- --------ScrollTrigger_CDN--------  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" 
+        integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- --------typed JS_CDN--------  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- --------Textillate JS_CDN--------  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.6.1/jquery.lettering.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/textillate/0.4.0/jquery.textillate.min.js"
+        integrity="sha512-0bHMhYsdpiur1bT84kDH4D7cpxFQ9O7uA5yxVAqWC87h552Xt0swX4M+ZlXMKE8oPVRIJ5lAwXWO2UWeDwJJOw=="crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- --------JavaScript--------  -->
+    <script src="style-switcher.js"></script>
+    <script src="loader.js"></script>
+    <script src="animation.js"></script>
+    <script src="script.js"></script>
+    <script src="responsive.js"></script>
+</body> 
+</html>
